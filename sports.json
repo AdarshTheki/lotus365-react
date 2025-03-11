@@ -1,0 +1,145 @@
+[
+  {
+    "_id": {
+      "$oid": "634aec4d3988fe9127552a90"
+    },
+    "sportId": 4,
+    "typeId": 4,
+    "name": "Cricket",
+    "otherName": "Cricket",
+    "marketCount": 1,
+    "icon": "/imgs/4.png"
+  },
+  {
+    "_id": {
+      "$oid": "634aec4d3988fe9127552a8f"
+    },
+    "sportId": 2,
+    "typeId": 2,
+    "name": "Tennis",
+    "otherName": "Tennis",
+    "marketCount": 1,
+    "icon": "/imgs/2.png"
+  },
+  {
+    "_id": {
+      "$oid": "650c7b581f12c03244879688"
+    },
+    "sportId": 9,
+    "typeId": 9,
+    "name": "Golf",
+    "otherName": "golf",
+    "marketCount": 1,
+    "icon": "/imgs/Golf.png"
+  },
+  {
+    "_id": {
+      "$oid": "65125690ba3a9c157b178e7b"
+    },
+    "sportId": 11,
+    "typeId": 11,
+    "name": "Basketball",
+    "otherName": "Basketball",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/15.png"
+  },
+  {
+    "_id": {
+      "$oid": "65125698ba3a9c157b178e7c"
+    },
+    "sportId": 13,
+    "typeId": 13,
+    "name": "Kabaddi",
+    "otherName": "Kabaddi",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/66.png"
+  },
+  {
+    "_id": {
+      "$oid": "65125713ba3a9c157b178e7e"
+    },
+    "sportId": 16,
+    "typeId": 16,
+    "name": "E Games",
+    "otherName": "E Games",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/11.png"
+  },
+  {
+    "_id": {
+      "$oid": "634ae93773ae7ba3eedc1f9f"
+    },
+    "sportId": 1,
+    "typeId": 1,
+    "name": "Soccer",
+    "otherName": "Soccer",
+    "marketCount": 1,
+    "icon": "/imgs/1.png"
+  },
+  {
+    "_id": {
+      "$oid": "634aec4d3988fe9127552a91"
+    },
+    "sportId": 7,
+    "typeId": 7,
+    "name": "Horse Racing",
+    "otherName": "Horse Racing",
+    "marketCount": 1,
+    "icon": "/imgs/hourse.png"
+  },
+  {
+    "_id": {
+      "$oid": "651256f7ba3a9c157b178e7d"
+    },
+    "sportId": 14,
+    "typeId": 14,
+    "name": "Futsal",
+    "otherName": "Futsal",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/9.png"
+  },
+  {
+    "_id": {
+      "$oid": "65125733ba3a9c157b178e7f"
+    },
+    "sportId": 15,
+    "typeId": 15,
+    "name": "Snooker",
+    "otherName": "Snooker",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/59.png"
+  },
+  {
+    "_id": {
+      "$oid": "634aec4d3988fe9127552a92"
+    },
+    "sportId": 4339,
+    "typeId": 4339,
+    "name": "Greyhound Racing",
+    "otherName": "Greyhound Racing",
+    "marketCount": 1,
+    "icon": "/imgs/greyhounds.png"
+  },
+  {
+    "_id": {
+      "$oid": "65125666ba3a9c157b178e79"
+    },
+    "sportId": 10,
+    "typeId": 10,
+    "name": "Table Tennis",
+    "otherName": "Table-Tennis",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/8.png"
+  },
+  {
+    "_id": {
+      "$oid": "6512568cba3a9c157b178e7a"
+    },
+    "sportId": 12,
+    "typeId": 12,
+    "name": "Volleyball",
+    "otherName": "Volleyball",
+    "marketCount": 1,
+    "icon": "https://dzm0kbaskt4pv.cloudfront.net/v12/static/mobile/img/gameImg/18.png"
+  }
+]
