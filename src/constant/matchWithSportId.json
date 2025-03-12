@@ -1,0 +1,719 @@
+[
+  {
+    "_id": "677d128510983463db34f962",
+    "matchId": 33918252,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T11:39:49.547Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": true,
+    "isFancy": true,
+    "isT10": false,
+    "matchDateTime": "2025-01-08T08:15:00.000Z",
+    "name": "Sydney Thunder v Hobart Hurricanes",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10328858,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.102Z",
+    "markets": [
+      {
+        "_id": "677d128410983463db34f960",
+        "marketId": "1.237921252",
+        "matchId": 33918252,
+        "__v": 0,
+        "createdAt": "2025-01-07T11:39:48.888Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-08T08:15:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 5728190,
+            "runnerName": "Sydney Thunder",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 5728193,
+            "runnerName": "Hobart Hurricanes",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 10328858,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.111Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9a7",
+    "matchId": 33915801,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.619Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-08T23:40:00.000Z",
+    "name": "Wellington Blaze Women v Central Hinds Women",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 12162210,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f993",
+        "marketId": "1.237947412",
+        "matchId": 33915801,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.597Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-08T23:40:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 64684837,
+            "runnerName": "Wellington Blaze Women",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 64684838,
+            "runnerName": "Central Hinds Women",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 12162210,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.153Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9aa",
+    "matchId": 33915965,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.620Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-09T03:25:00.000Z",
+    "name": "Wellington Firebirds v Central Stags",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10479856,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f997",
+        "matchId": 33915965,
+        "marketId": "1.237947384",
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.620Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-09T03:25:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 6847358,
+            "runnerName": "Wellington Firebirds",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 6847359,
+            "runnerName": "Central Stags",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 10479856,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.117Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9a9",
+    "matchId": 33916705,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.620Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-09T03:30:00.000Z",
+    "name": "Haryana v Bengal",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10957170,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f998",
+        "marketId": "1.237899427",
+        "matchId": 33916705,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.624Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-09T03:30:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          { "selectionId": 7860011, "runnerName": "Haryana", "handicap": 0, "sortPriority": 1 },
+          { "selectionId": 3388327, "runnerName": "Bengal", "handicap": 0, "sortPriority": 2 }
+        ],
+        "seriesId": 10957170,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.126Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9ab",
+    "matchId": 33916706,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.620Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-09T03:30:00.000Z",
+    "name": "Rajasthan v Tamil Nadu",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10957170,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f999",
+        "marketId": "1.237899438",
+        "matchId": 33916706,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.649Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-09T03:30:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          { "selectionId": 2954264, "runnerName": "Rajasthan", "handicap": 0, "sortPriority": 1 },
+          { "selectionId": 4297071, "runnerName": "Tamil Nadu", "handicap": 0, "sortPriority": 2 }
+        ],
+        "seriesId": 10957170,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.133Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9a3",
+    "matchId": 33912756,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.597Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": true,
+    "isFancy": true,
+    "isT10": false,
+    "matchDateTime": "2025-01-09T08:15:00.000Z",
+    "name": "Melbourne Stars v Sydney Sixers",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10328858,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.102Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f994",
+        "marketId": "1.237921433",
+        "matchId": 33912756,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.603Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-09T08:15:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 5728187,
+            "runnerName": "Melbourne Stars",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 5728225,
+            "runnerName": "Sydney Sixers",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 10328858,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.157Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9a8",
+    "matchId": 33921161,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.620Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-09T13:00:00.000Z",
+    "name": "Dhaka Capital v Chittagong Kings",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 12161756,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.102Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f99a",
+        "marketId": "1.237955497",
+        "matchId": 33921161,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.672Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-09T13:00:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 78306657,
+            "runnerName": "Dhaka Capital",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 6119244,
+            "runnerName": "Chittagong Kings",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 12161756,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.138Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18c710983463db34f9a6",
+    "matchId": 33905371,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:31.619Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": true,
+    "isT10": false,
+    "matchDateTime": "2025-01-09T15:30:00.000Z",
+    "name": "Sunrisers Eastern Cape v MI Cape Town",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 12546072,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.102Z",
+    "markets": [
+      {
+        "_id": "677d18c610983463db34f995",
+        "marketId": "1.237754685",
+        "matchId": 33905371,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:30.608Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-09T15:30:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 51511463,
+            "runnerName": "Sunrisers Eastern Cape",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 78513514,
+            "runnerName": "MI Cape Town",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 12546072,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.143Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18cf10983463db34f9b9",
+    "matchId": 33918630,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:39.115Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-10T01:10:00.000Z",
+    "name": "Canterbury Magicians Women v Auckland Hearts Women",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 12162210,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18ce10983463db34f9ac",
+        "marketId": "1.237947426",
+        "matchId": 33918630,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:38.147Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-10T01:10:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 64618808,
+            "runnerName": "Canterbury Magicians Women",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 64618807,
+            "runnerName": "Auckland Hearts Women",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 12162210,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.147Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18cf10983463db34f9b7",
+    "matchId": 33918421,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:39.102Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-10T04:55:00.000Z",
+    "name": "Canterbury Kings v Auckland Aces",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10479856,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.102Z",
+    "markets": [
+      {
+        "_id": "677d18ce10983463db34f9ae",
+        "marketId": "1.237947398",
+        "matchId": 33918421,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:38.164Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-10T04:55:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 8928550,
+            "runnerName": "Canterbury Kings",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 6683163,
+            "runnerName": "Auckland Aces",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 10479856,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.164Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18cf10983463db34f9b5",
+    "matchId": 33910524,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:39.089Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": true,
+    "isFancy": true,
+    "isT10": false,
+    "matchDateTime": "2025-01-10T05:30:00.000Z",
+    "name": "India Women v Ireland Women",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 9886504,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.089Z",
+    "markets": [
+      {
+        "_id": "677d18ce10983463db34f9ad",
+        "marketId": "1.237829056",
+        "matchId": 33910524,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:38.160Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-10T05:30:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 2030174,
+            "runnerName": "India Women",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 10108898,
+            "runnerName": "Ireland Women",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 9886504,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.160Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18cf10983463db34f9b8",
+    "matchId": 33916126,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:39.115Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-10T08:00:00.000Z",
+    "name": "Durbar Rajshahi v Khulna Tigers",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 12161756,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18ce10983463db34f9af",
+        "marketId": "1.237892474",
+        "matchId": 33916126,
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:38.173Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-10T08:00:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 78174043,
+            "runnerName": "Durbar Rajshahi",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 27063302,
+            "runnerName": "Khulna Tigers",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 12161756,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.173Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18cf10983463db34f9b6",
+    "matchId": 33905399,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:39.089Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": true,
+    "isT10": false,
+    "matchDateTime": "2025-01-10T15:30:00.000Z",
+    "name": "Durban Super Giants v Pretoria Capitals",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 12546072,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.089Z",
+    "markets": [
+      {
+        "_id": "677d18ce10983463db34f9b1",
+        "matchId": 33905399,
+        "marketId": "1.237754611",
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:38.184Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-10T15:30:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 51221389,
+            "runnerName": "Durban Super Giants",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 51511462,
+            "runnerName": "Pretoria Capitals",
+            "handicap": 0,
+            "sortPriority": 2
+          }
+        ],
+        "seriesId": 12546072,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.184Z"
+      }
+    ]
+  },
+  {
+    "_id": "677d18cf10983463db34f9ba",
+    "matchId": 33918992,
+    "__v": 0,
+    "active": true,
+    "createdAt": "2025-01-07T12:06:39.115Z",
+    "inPlayFancyMaxLimit": 25000,
+    "inPlayFancyMinLimit": 100,
+    "inPlayMaxLimit": 25000,
+    "inPlayMinLimit": 100,
+    "isBookMaker": false,
+    "isFancy": false,
+    "isT10": false,
+    "matchDateTime": "2025-01-11T03:30:00.000Z",
+    "name": "Maharashtra v Punjab",
+    "offPlayFancyMaxLimit": 25000,
+    "offPlayFancyMinLimit": 100,
+    "offPlayMaxLimit": 25000,
+    "offPlayMinLimit": 100,
+    "seriesId": 10957170,
+    "sportId": 4,
+    "updatedAt": "2025-01-07T12:06:39.115Z",
+    "markets": [
+      {
+        "_id": "677d18ce10983463db34f9b0",
+        "matchId": 33918992,
+        "marketId": "1.237932760",
+        "__v": 0,
+        "createdAt": "2025-01-07T12:06:38.178Z",
+        "isActive": true,
+        "marketName": "Match Odds",
+        "marketStartTime": "2025-01-11T03:30:00.000Z",
+        "oddsType": "berFair",
+        "runners": [
+          {
+            "selectionId": 8189915,
+            "runnerName": "Maharashtra",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          { "selectionId": 2954261, "runnerName": "Punjab", "handicap": 0, "sortPriority": 2 }
+        ],
+        "seriesId": 10957170,
+        "sportId": 4,
+        "updatedAt": "2025-01-07T12:06:38.178Z"
+      }
+    ]
+  }
+]

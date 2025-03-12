@@ -1,4 +1,3 @@
-import Dashboard from './dashboard/Dashboard';
-import HomePage from './dashboard/HomePage';
+import HomePage from './HomePage';
 
-export { Dashboard, HomePage };
+export { HomePage };

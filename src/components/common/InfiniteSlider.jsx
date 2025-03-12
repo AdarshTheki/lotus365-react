@@ -13,9 +13,7 @@ const InfiniteSlider = ({ images = urls }) => {
   return (
     <div className='relative overflow-hidden w-full'>
       <div className='flex w-full'>
-        {/* Infinite Sliding Wrapper */}
         <NavLink to={'/'} className='flex whitespace-nowrap animate-infinite-scroll'>
-          {/* Duplicate images for seamless loop */}
           {[...images, ...images].map((img, index) => (
             <img
               key={index}
