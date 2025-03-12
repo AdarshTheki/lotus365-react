@@ -1,21 +1,29 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { BodyBase, BodyBottom, BodyLeft, BodyRight, Footer, Header } from './components';
-import { HomePage } from './pages';
+import {
+  BodyBase,
+  BodyBottom,
+  BodyLeft,
+  BodyRight,
+  Footer,
+  Header,
+} from './components';
+import { GameList, HomePage } from './pages';
 
 const App = () => {
   return (
-    <div className='bg-gray-200'>
+    <div className="bg-gray-200">
       <Router>
         <Header />
-        <div className='flex w-full max-w-7xl overflow-hidden mx-auto'>
+        <div className="flex w-full max-w-7xl overflow-hidden mx-auto">
           <BodyLeft />
-          <div className='sm:p-4 p-2'>
+          <div className="sm:p-4 p-2">
             <BodyBase />
             <Routes>
-              <Route path='/' element={<HomePage />} />
-              <Route path='/home' element={<HomePage />} />
-              <Route path='/match/:id' element={<HomePage />} />
+              <Route path="/" element={<HomePage />} />
+              <Route path="/home" element={<HomePage />} />
+              <Route path="/match/:id" element={<HomePage />} />
+              <Route path="/match/99998" element={<GameList />} />
             </Routes>
             <BodyBottom />
           </div>

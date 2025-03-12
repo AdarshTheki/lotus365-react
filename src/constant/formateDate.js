@@ -9,7 +9,7 @@ const formatDateTime = (
     second: '2-digit',
     hour12: false,
     timeZoneName: 'short',
-  }
+  },
 ) => {
   return date.toLocaleDateString('en-US', options).replace(',', '');
 };

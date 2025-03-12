@@ -11,15 +11,18 @@ const urls = [
 
 const InfiniteSlider = ({ images = urls }) => {
   return (
-    <div className='relative overflow-hidden w-full'>
-      <div className='flex w-full'>
-        <NavLink to={'/'} className='flex whitespace-nowrap animate-infinite-scroll'>
+    <div className="relative overflow-hidden w-full">
+      <div className="flex w-full">
+        <NavLink
+          to={'/'}
+          className="flex whitespace-nowrap animate-infinite-scroll"
+        >
           {[...images, ...images].map((img, index) => (
             <img
               key={index}
               src={img}
-              alt='Sliding'
-              className='w-60 hover:scale-95 mx-2 duration-300 h-40 rounded-lg hover:shadow-lg object-cover'
+              alt="Sliding"
+              className="w-60 hover:scale-95 mx-2 duration-300 h-40 rounded-lg hover:shadow-lg object-cover"
             />
           ))}
         </NavLink>

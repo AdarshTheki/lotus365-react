@@ -192,8 +192,18 @@
         "marketStartTime": "2025-01-09T03:30:00.000Z",
         "oddsType": "berFair",
         "runners": [
-          { "selectionId": 7860011, "runnerName": "Haryana", "handicap": 0, "sortPriority": 1 },
-          { "selectionId": 3388327, "runnerName": "Bengal", "handicap": 0, "sortPriority": 2 }
+          {
+            "selectionId": 7860011,
+            "runnerName": "Haryana",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 3388327,
+            "runnerName": "Bengal",
+            "handicap": 0,
+            "sortPriority": 2
+          }
         ],
         "seriesId": 10957170,
         "sportId": 4,
@@ -235,8 +245,18 @@
         "marketStartTime": "2025-01-09T03:30:00.000Z",
         "oddsType": "berFair",
         "runners": [
-          { "selectionId": 2954264, "runnerName": "Rajasthan", "handicap": 0, "sortPriority": 1 },
-          { "selectionId": 4297071, "runnerName": "Tamil Nadu", "handicap": 0, "sortPriority": 2 }
+          {
+            "selectionId": 2954264,
+            "runnerName": "Rajasthan",
+            "handicap": 0,
+            "sortPriority": 1
+          },
+          {
+            "selectionId": 4297071,
+            "runnerName": "Tamil Nadu",
+            "handicap": 0,
+            "sortPriority": 2
+          }
         ],
         "seriesId": 10957170,
         "sportId": 4,
@@ -708,7 +728,12 @@
             "handicap": 0,
             "sortPriority": 1
           },
-          { "selectionId": 2954261, "runnerName": "Punjab", "handicap": 0, "sortPriority": 2 }
+          {
+            "selectionId": 2954261,
+            "runnerName": "Punjab",
+            "handicap": 0,
+            "sortPriority": 2
+          }
         ],
         "seriesId": 10957170,
         "sportId": 4,

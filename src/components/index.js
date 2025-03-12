@@ -5,5 +5,15 @@ import BodyLeft from './body/BodyLeft';
 import BodyRight from './body/BodyRigth';
 import BodyBottom from './body/BodyBottom';
 import Footer from './footer/Footer';
+import LoadingSpinner from './common/Loading';
 
-export { Header, Footer, BodyBottom, BodyBase, BodyLeft, BodyRight, InfiniteSlider };
+export {
+  Header,
+  LoadingSpinner,
+  Footer,
+  BodyBottom,
+  BodyBase,
+  BodyLeft,
+  BodyRight,
+  InfiniteSlider,
+};
