@@ -8,25 +8,22 @@ import {
   Footer,
   Header,
 } from './components';
-import { GameList, HomePage } from './pages';
+import { GameList, HomePage, MatchPage } from './pages';
 
 const App = () => {
   return (
     <div className="bg-gray-200">
       <Router>
         <Header />
-        <div className="flex w-full max-w-7xl overflow-hidden mx-auto">
+        <div className="flex w-full min-h-screen max-w-7xl overflow-hidden mx-auto">
           <BodyLeft />
-          <div className="sm:p-4 p-2">
-            <BodyBase />
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/home" element={<HomePage />} />
-              <Route path="/match/:id" element={<HomePage />} />
-              <Route path="/match/99998" element={<GameList />} />
-            </Routes>
-            <BodyBottom />
-          </div>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/match/:sportId" element={<HomePage />} />
+            <Route path="/match/99998" element={<GameList />} />
+            <Route path="/match/:sportId/:matchId" element={<MatchPage />} />
+          </Routes>
           <BodyRight />
         </div>
         <Footer />

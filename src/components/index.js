@@ -6,8 +6,10 @@ import BodyRight from './body/BodyRigth';
 import BodyBottom from './body/BodyBottom';
 import Footer from './footer/Footer';
 import LoadingSpinner from './common/Loading';
+import OddList from './common/OddList';
 
 export {
+  OddList,
   Header,
   LoadingSpinner,
   Footer,

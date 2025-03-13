@@ -14,7 +14,6 @@ const Header = () => {
     const timer = setInterval(() => {
       setDateTime(new Date());
     }, 1000);
-
     return () => clearInterval(timer);
   }, []);
 
@@ -70,7 +69,7 @@ const Header = () => {
           </div>
         )}
       </div>
-      <div className="overflow-y-auto scrollbar-hidden border-b text-gray-800 border-gray-300 bg-white">
+      <div className="overflow-y-auto scrollbar-hidden border-b border-gray-300 bg-white">
         <ul className="m-3 flex gap-3">
           {sports.map((item, index) => (
             <li key={item.typeId} className="flex items-center">

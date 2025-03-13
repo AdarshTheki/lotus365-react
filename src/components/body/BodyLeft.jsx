@@ -3,27 +3,29 @@ import { ArrowLeftCircle, ChevronRight } from 'lucide-react';
 
 import sports from '../../constant/sports.json';
 import axios from 'axios';
+import { NavLink } from 'react-router-dom';
+import matchData from '../../constant/matchWithSportId.json';
 
 const Sidebar = () => {
   const [sportId, setSportId] = useState(null);
-  const [matchList, setMatchList] = useState([]);
+  const [matchList, setMatchList] = useState(matchData);
 
-  useEffect(() => {
-    const getMatches = async () => {
-      try {
-        const res = await axios.get(
-          `http://localhost:3010/api/get-match-list?sportId=${sportId}`,
-        );
-        setMatchList(res.data.data);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    getMatches();
-  }, [sportId]);
+  // useEffect(() => {
+  //   const getMatches = async () => {
+  //     try {
+  //       const res = await axios.get(
+  //         `http://localhost:3010/api/get-match-list?sportId=${sportId}`,
+  //       );
+  //       setMatchList(res.data.data);
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  //   getMatches();
+  // }, [sportId]);
 
   return (
-    <div className="!min-w-[200px] max-md:hidden text-gray-800 bg-white border-r border-gray-300 overflow-hidden">
+    <div className="!min-w-[200px] max-w-[220px] max-md:hidden bg-white border-r border-gray-300 overflow-hidden">
       {sportId && (
         <button
           onClick={() => setSportId(null)}
@@ -50,23 +52,21 @@ const Sidebar = () => {
               <span className="text-nowrap text-sm font-semibold">
                 {sport.name}
               </span>
-              <ChevronRight
-                size={16}
-                className="text-gray-300 absolute right-0 to-45%"
-              />
+              <ChevronRight size={16} className="absolute right-0 to-45%" />
             </div>
           </div>
         ))}
 
       {sportId &&
         matchList?.map((item) => (
-          <button
+          <NavLink
+            to={`/match/${item.sportId}/${item.matchId}`}
             key={item.sportId}
             className="border-b text-left w-full flex items-center p-2 justify-between hover:bg-gray-200 duration-200 border-b-gray-200 cursor-pointer"
           >
             <span className="text-xs line-clamp-2">{item.name}</span>
-            <ChevronRight size={18} className="text-gray-600 min-w-fit" />
-          </button>
+            {/* <ChevronRight size={18} className="text-gray-600 min-w-fit" /> */}
+          </NavLink>
         ))}
     </div>
   );

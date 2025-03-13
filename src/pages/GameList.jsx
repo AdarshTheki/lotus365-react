@@ -5,7 +5,7 @@ const GameList = () => {
   const [query, setQuery] = useSearchParams();
 
   return (
-    <div className="w-full">
+    <div className="w-full p-4">
       {/* lists one */}
       <div className="flex my-2 gap-0.5 p-0.5 bg-[var(--primary)] scrollbar-hidden overflow-x-auto max-w-3xl">
         {Array.from({ length: 20 }, (_, index) => (

@@ -1,19 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Check, Plus, Star } from 'lucide-react';
-import matchWithSportId from '../constant/matchWithSportId.json';
+import { format } from 'date-fns';
 
 import sports from '../constant/sports.json';
-import { format } from 'date-fns';
-import { LoadingSpinner } from '../components';
+import { BodyBase, BodyBottom, LoadingSpinner } from '../components';
+import matchWithSportId from '../constant/matchWithSportId.json';
 
 const HomePage = () => {
-  const { id } = useParams();
-  const [isLive, setIsLive] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
-  const [isVirtual, setIsVirtual] = useState(false);
-
-  const filterData = sports?.find((i) => i?.sportId == id);
 
   useEffect(() => {
     let timer = setTimeout(() => {
@@ -24,10 +19,27 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="mt-10">
-      <div className="flex items-center justify-between">
+    <div className="p-4">
+      <BodyBase />
+      {isLoading ? <LoadingSpinner /> : <MatchListing />}
+      <BodyBottom />
+    </div>
+  );
+};
+
+export default HomePage;
+
+const MatchListing = () => {
+  const { sportId } = useParams();
+  const [isLive, setIsLive] = useState(false);
+  const [isVirtual, setIsVirtual] = useState(false);
+  const filterData = sports?.find((i) => i?.sportId == sportId);
+
+  return (
+    <div className="py-5">
+      <div className="flex items-center justify-between border-b border-gray-400">
         <h2 className="font-semibold text-2xl text-gray-700">
-          {id ? filterData?.name : 'Cricket'}
+          {sportId ? filterData?.name : 'Cricket'}
         </h2>
         <div className="flex items-center gap-2 uppercase text-sm font-semibold">
           <button
@@ -55,18 +67,8 @@ const HomePage = () => {
           Betting from 1min before start
         </p>
       </div>
-      <hr className="border-b border-gray-300 my-3 w-full" />
-      <p>Match</p>
-      {isLoading ? <LoadingSpinner /> : <MatchListing />}
-    </div>
-  );
-};
 
-export default HomePage;
-
-const MatchListing = () => {
-  return (
-    <div>
+      {/* Match Lists */}
       {matchWithSportId.map((item) => (
         <div className="flex ">
           <div className="flex w-3/2 gap-2 items-center">
